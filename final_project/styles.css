@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* header  */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e8ac05;
+  color: white;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+nav {
+  display: flex;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  padding: 30px;
+}
+
+.active {
+  color: black;
+}
+
+section {
+  padding: 20px;
+}
+
+/* footer  */
+
+footer {
+  background-color: #e8ac05;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_p {
+  color: black;
+  font-size: 20px;
+}
+
+.contact {
+  text-align: left;
+}
+
+.socialicons {
+  text-align: right;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+.socicon_img {
+  width: 50px;
+  margin: 0 20px;
+}
+
+img {
+  width: 100px;
+}
+
+/* portfolio page  */
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 10px;
+}
+
+/* contact page form */
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+form label {
+  margin-top: 10px;
+  color: white;
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+form button {
+  background-color: #ebb113;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 0 9%;
+}
+
+.article_graphic {
+  width: 50%;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+h4 {
+  margin: 15px 0;
+}
+.article_txt {
+  width: 420px;
+}
+.myphotos {
+  width: 50%;
+}
